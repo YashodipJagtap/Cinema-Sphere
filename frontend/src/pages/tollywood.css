@@ -1,0 +1,33 @@
+/* Common CSS for both Hollywood and Tollywood */
+.movie-card {
+  width: 200px; /* Width of each movie card */
+  cursor: pointer; /* Indicate clickability */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  margin: 10px;
+}
+
+.movie-card img {
+  width: 100%; /* Make image fill the card */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Spacing between cards */
+  justify-content: center; /* Center-align all movies */
+  padding: 20px;
+}
+
+/* Hollywood and Tollywood Containers */
+.hollywood-container, .tollywood-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}

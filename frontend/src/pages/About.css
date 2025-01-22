@@ -1,0 +1,265 @@
+/* General Styles */
+.about-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #0d0d0d, #1e1e1e);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header Section */
+.about-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(90deg, #0d0d0d, #1e1e1e);
+  color: #fff;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1e90ff;
+  text-shadow: 0 0 10px #1e90ff;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.about-header h1:hover {
+  text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+.technology  {
+  text-align: center !important;
+  /* Centers the text horizontally */
+}
+.about-header p:hover {
+  color: #fff;
+}
+
+/* Team Section */
+.team-section {
+  padding: 3rem 1rem;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #1e90ff;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.team-section h2:hover,.mission-section h2:hover,.technology-section h2:hover {
+  text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;
+}
+
+/* Team Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+/* Team Card */
+.team-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+/* Image Wrapper for Centering */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.team-image {
+  width: 170px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #1e90ff;
+  transition: transform 0.3s ease;
+}
+
+.team-image:hover {
+  transform: scale(1.1);
+  border-color: #252525;
+}
+/* Developer Info */
+.team-card h3 {
+  font-size: 1.3rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.team-card h3:hover {
+  color: #00bfff;
+}
+
+.team-card .roll,
+.team-card .role {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+.team-card .roll:hover,
+.team-card .role:hover {
+  color: #fff;
+}
+
+.team-card .slogan {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #1e90ff;
+  transition: color 0.3s ease;
+}
+
+.team-card .slogan:hover {
+  color: #00bfff;
+}
+
+/* Footer */
+.footer-container {
+  background: linear-gradient(90deg, #0d0d0d, #1e1e1e);
+  padding: 30px 20px;
+  color: white;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.6);
+  transition: background 0.3s ease-in-out;
+}
+
+.footer-container:hover {
+  background: linear-gradient(90deg, #121212, #252525);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-about h2 {
+  color: #1e90ff;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px #1e90ff;
+}
+
+.footer-about p {
+  font-size: 1rem;
+}
+
+.footer-links h3, .footer-social h3 {
+  font-size: 1.2rem;
+  color: #1e90ff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #00bfff;
+  transform: scale(1.1);
+}
+
+.footer-social .social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  color: white;
+  margin-bottom: 8px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #00bfff;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+}
+
+.footer-bottom:hover {
+  color: rgba(255, 255, 255, 1);
+}
+/* Mission Section */
+.mission-section,
+.history-section,
+.technology-section {
+  padding: 3rem 1rem;
+  background: #121212;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.mission-section h2,
+.history-section h2,
+.technology-section h2 {
+  font-size: 2rem;
+  color: #1e90ff;
+  text-shadow: 0 0 10px #1e90ff;
+  text-align: center;
+  margin-bottom: 1rem;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.mission-section p,
+.history-section p,
+.technology-section p
+.about-header {
+  font-size: 1.1rem;
+  color: #bbb;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.technology-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.technology-section li {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 0.5rem;
+}
+
+.technology-section li strong {
+  color: #1e90ff;
+}
